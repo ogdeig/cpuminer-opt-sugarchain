@@ -8,7 +8,7 @@ Tested on Ubuntu 16.04
 ```bash
 sudo apt-get install -y \
 build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake zlib1g-dev && \
-git clone https://github.com/cryptozeny/cpuminer-opt-sugarchain.git && \
+git clone https://github.com/ogdeig/cpuminer-opt-sugarchain.git && \
 cd cpuminer-opt-sugarchain && \
 ./build-yespower.sh && \
 ./cpuminer --cputest
@@ -19,12 +19,12 @@ All address format (legacy, p2sh-segwit and ___bech32___) supported.
 
  * Mining Pool - `-t1` using 1 thread.
 ```
-./cpuminer -a yespower -o stratum+tcp://1pool-testnet.cryptozeny.com:3333 -u tugar1qt9tcmdq7w002j8rw78h8nraj382ptqh7fe83f8 -t1
+./cpuminer -a yespower -o stratum+tcp://1pool-testnet.cryptozeny.com:3333 -u sugar1qnd3mamq6e7wsrml40ve95h3y3l9u9sq7gj0fc0 -t1
 ```
 
  * Solo - `44229` is testnet. `-u` and `-p` is on the coind. (adding `--no-longpoll` for displaying correct net_diff)
 ```
-./cpuminer -a yespower -o http://localhost:44229 --no-longpoll -u rpcuser -p rpcpassword --coinbase-addr=tugar1qt9tcmdq7w002j8rw78h8nraj382ptqh7fe83f8 -t1
+./cpuminer -a yespower -o http://localhost:44229 --no-longpoll -u rpcuser -p rpcpassword --coinbase-addr=sugar1qnd3mamq6e7wsrml40ve95h3y3l9u9sq7gj0fc0 -t1
 ```
 
  * Screenshot
@@ -191,7 +191,7 @@ forum at:
 https://bitcointalk.org/index.php?topic=1326803.0
 
 All bug reports must be accompanied by a proper definition.
-This should include how the problem occurred, the command line 
+This should include how the problem occurred, the command line
 output from the miner showing at startup and any errors.
 
 Donations
@@ -199,7 +199,7 @@ Donations
 
 cpuminer-opt-sugarchain has no fees of any kind but donations are accepted.
 
- BTC: 3Gcbpn4QU4iGibZox378VdEJvjx7Z7J7Tr (cryptozeny)  
- SUGAR: sugar1qcu07vm47ceh7lec3umx7nv7e8tm8r8zw4l2uyx (cryptozeny)  
+ BTC: 3NjjC26FdvRUKnEifmWRE5wz2hFgTvt6Mr  
+ SUGAR: sugar1qnd3mamq6e7wsrml40ve95h3y3l9u9sq7gj0fc0  
 
 Happy mining!

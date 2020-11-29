@@ -5,7 +5,7 @@ cpuminer is a console program that is executed from a DOS command prompt.
 There is no GUI and no mouse support.
 
 Miner programs are often flagged as malware by antivirus programs. This is
-a false positive, they are flagged simply because they are cryptocurrency 
+a false positive, they are flagged simply because they are cryptocurrency
 miners. The source code is open for anyone to inspect. If you don't trust
 the software, don't use it.
 
@@ -26,7 +26,7 @@ Changes in v3.8.4 may have improved compatibility with some of these CPUs.
 
 Exe name                Compile flags            Arch name
 
-cpuminer-sse2.exe      "-msse2"                  Core2, Nehalem   
+cpuminer-sse2.exe      "-msse2"                  Core2, Nehalem
 cpuminer-aes-sse42.exe "-march=westmere"         Westmere, Sandy-Ivybridge
 cpuminer-avx.exe       "-march=corei7-avx"       Sandy-Ivybridge
 cpuminer-avx2.exe      "-march=core-avx2"        Haswell, Sky-Kaby-Coffeelake
@@ -34,5 +34,5 @@ cpuminer-avx2-sha.exe  "-march=core-avx2 -msha"  Ryzen
 
 If you like this software feel free to donate:
 
-BTC: 3Gcbpn4QU4iGibZox378VdEJvjx7Z7J7Tr (cryptozeny)  
-SUGAR: sugar1qcu07vm47ceh7lec3umx7nv7e8tm8r8zw4l2uyx (cryptozeny)  
+BTC: 3NjjC26FdvRUKnEifmWRE5wz2hFgTvt6Mr
+SUGAR: sugar1qnd3mamq6e7wsrml40ve95h3y3l9u9sq7gj0fc0
